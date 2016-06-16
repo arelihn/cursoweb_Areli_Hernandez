@@ -1,0 +1,43 @@
+body   
+
+ h1
+    {
+      color:blue;
+      font-family: "Adobe Ming Std L","Berlin Sans FB";
+    }
+h3,h4
+    {
+      color:#FE2E64
+      font-family: "Bookman Old Style","Arial";
+    }
+.info_personal{
+          color:#2A0A29;
+          font-family: "Century Gothic","Berlin Sans FB";
+          font-size: 12pt;
+          line-height: 1;
+              }
+.contacto,.enlace,.escuelas,.extras
+   {
+    color:white;
+    background:black;
+    font-family: "Century Gothic","Berlin Sans FB";
+    font-size: 12pt;
+    line-height: 1;
+   }
+a
+  {
+    color:#013ADF;
+    text-decoration: none;
+  }
+
+        
+    
+
+
+
+
+
+
+
+
+body
