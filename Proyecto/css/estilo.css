@@ -1,0 +1,334 @@
+/************ 
+//--------------------------------
+// GENERAL
+//-------------------------------
+************/
+body 
+  {
+    margin: 0;
+    padding: 0;
+    font-family: Maiandra GD;
+    color: black;
+    background: #fff; 
+    font-size: 1em;/*tamaño de letra*/
+    line-height: 1.5em;/*separacion entre lineas*/
+    padding-top: 75px;/*margen que hay en el documento al iniciar*/
+  }
+
+h1 {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 300;
+}
+.cursiva
+{
+  font-family: Matura MT Script Capitals;
+  font-size: x-large;
+}
+.cursiva2
+{
+  font-family: Matura MT Script Capitals;
+  font-size: xx-large;
+}
+
+img {
+    max-width: 500%;/*tamaño de imagen*/
+    height: auto;/*tamaño del contenido*/
+}
+/************ 
+//-------------------------------
+// CABECERA
+//-------------------------------
+************/
+#menu_principal {
+    background: #5A5B77;/*color del bloque superios*/
+    color: white;
+    height: 70px;/*ancho del bloque*/
+    width: 100%;/*ancho de la pagina que se toma*/
+    left: 0;/*lado izquierdo*/
+    top: 0;/*arriba*/
+    position: fixed;/*no se mueva de la pagina*/
+}   
+    #menu_principal a
+     {
+        color: white;
+    }
+    
+  .centrado
+  {
+    align-content: center;
+  }  
+/*
+ * Logo
+ */
+#logo 
+{
+    float: left;/*posicion en el bloque*/
+    padding: 15px;
+    text-decoration: none;
+}
+   
+#logo /*.nombre */
+{
+    display: block;
+   font-weight: 500;
+    font-size: 15px;
+}
+    
+    /*#logo /*.site-desc/ {
+        display: block;
+        font-weight: 3;
+        font-size: 3.8em;
+        color: whith;
+    }*/
+    
+
+/*
+ * Navegación
+ */
+nav {
+    float: right;/*pocicionado de ado derecho*/
+}
+nav ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;/*tipo de lista*/
+    padding-right: 150px;
+    }
+    
+        nav ol li {
+            display: inline-block;/*que sea un linea la lista*/
+            line-height: 50px;/*lugar de alineacion*/
+        }
+            
+            nav ol li a {
+                display: block;
+                padding: 10px;
+                text-decoration: none;
+            }
+            
+                nav ol .active a, li:hover  a{
+                    background: #323342;
+                }
+    
+
+
+
+/************ 
+//------------------------------
+// CONTENIDO
+//------------------------------
+************/
+#contenido {
+    background: white;
+    width: 200%;
+    max-width: 800px;
+    margin:  auto;
+   
+}
+
+/*//////tablas///////*/
+
+.cuerpo 
+{
+  margin: auto;
+  margin-top: 60px;/*margen superior*/
+  width: 100%;/*ancho*/
+  height: 300px;/*alto*/
+  /*border: 1px solid black;*/
+
+
+}
+
+img .uno
+{
+  width: 99%;
+  height: 50%;
+
+
+
+}
+p{
+  text-align:  center;
+  
+
+  }
+.tex
+{
+  text-align: center;
+}
+  
+
+div .izquierda
+{
+  width: 300px;/*ancho*/
+  height: 300px;/*alto*/
+  background-color: white;
+  align-content: center;
+  width: 25%;
+  float: left;
+  margin-left: 42px;
+  
+}
+div .centro
+{
+  width: 300px;/*ancho*/
+  height: 300px;/*alto*/
+  background-color: white;
+  align-content: center;width: 25%;
+  float: left;
+  margin-left: 42px;
+  margin-right: 42px;
+  
+
+}
+div.derecha
+{
+  width: 300px;/*ancho*/
+  height: 300px;/*alto*/
+  background-color: white;
+  align-content: center;
+  width: 25%;
+  float: left;
+  margin-right: 42px;
+  
+}
+
+
+
+/*////////////
+MENU
+///////*/
+
+.parte2
+{
+  margin: auto;
+  margin-top: 60px;/*margen superior*/
+  width: 100%;/*ancho*/
+  height: auto;/*alto*/
+  /*border: 1px solid black;*/
+  align-content: center;
+
+
+}
+
+img 
+{
+  width: 80%;
+  height: 50%;
+  
+}
+p{
+  text-align:  center;
+  
+
+  }
+.tex
+{
+  text-align: center;
+}
+  
+
+div .sopas
+{
+ 
+  height: auto;/*alto*/
+  background-color: white;
+  align-content: center;
+  width: 25%;
+  float: left;
+  margin: 0;
+ 
+  
+}
+div .guisados
+{
+  
+  height: auto;/*alto*/
+  background-color: white;
+  align-content: center;
+  width: 25%;
+  float: left;
+ margin: 0;
+ 
+  
+
+}
+div.postres
+{
+  
+  height: auto;/*alto*/
+  background-color: white;
+  align-content: center;
+  width: 25%;
+  float: left;
+  margin: 0;
+ 
+  
+
+
+}
+div.bebida
+{
+ 
+  height: auto;/*alto*/
+  background-color: white;
+  align-content: center;
+  width: 25%;
+  float: left;
+  margin: 0;
+ 
+  
+}
+
+.promo
+{
+  text-anchor: 15px;
+  text-align: center;
+ color: #FF2E53; 
+    }
+.contacto
+
+{
+  margin-top: 60px;/*margen superior*/
+  width: 50%;/*ancho*/
+  height: auto;/*alto*/
+  /*border: 1px solid black;*/
+  align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************
+//-----------------------------
+// PIE PÁGINA
+//-----------------------------
+************/
+.fin {
+    background: #37385A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+    .fin p {
+        margin: 0;
+    }
+    
+    .fin a {
+        color: white;
+    }
+
